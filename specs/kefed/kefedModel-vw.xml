@@ -9,7 +9,6 @@
 				<pvLink c1="KefedModel" role="elements" pv2="KefedModelElement" c2="KefedModelElement"/>
 				<pvLink c1="KefedModel" role="edges" pv2="KefedModelEdge" c2="KefedModelEdge"/>
 				<pvLink c1="KefedModel" role="curators" pv2="KefedCuratorLU" c2="KefedCurator"/>
-				<pvLink c1="KefedModel" role="reference" pv2="Reference" c2="LiteratureCitation"/>
 				<pvLink c1="KefedModel" role="ooevv" pv2="OoevvElementSet" c2="OoevvElementSet"/>
 			</pvLinks>
 		</primitive>
@@ -34,11 +33,6 @@
 			</pvLinks>
 		</primitive>
 		<primitive lookupView="KefedCuratorLU" nullable="true"/>
-		<primitive name="Reference" nullable="true">
-			<classes>
-				<class name="LiteratureCitation"/>
-			</classes>
-		</primitive>
 	</primitives>
 	<vpdmfLabel format="KEfED expt: $1$, version: $2$" />
 	<indexElements>

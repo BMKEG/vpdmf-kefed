@@ -17,7 +17,7 @@
 		<vpdmf.model.type>MagicDraw</vpdmf.model.type>
 		<vpdmf.model.path>vpdmf-kefed.xml</vpdmf.model.path>
 		<vpdmf.viewsPath>specs</vpdmf.viewsPath>
-		<vpdmf.nestedModels>${basedir}/../vpdmf-people/ ${basedir}/../vpdmf-ftd/ ${basedir}/../vpdmf-digitalLibrary/ ${basedir}/../vpdmf-terminology/ ${basedir}/../vpdmf-ooevv/</vpdmf.nestedModels>  	
+		<vpdmf.nestedModels>${basedir}/../vpdmf-people/ ${basedir}/../vpdmf-terminology/ ${basedir}/../vpdmf-ooevv/</vpdmf.nestedModels>  	
  	</properties>
   
  	<build>
