@@ -8,6 +8,7 @@
 			<pvLinks>
 				<pvLink c1="KefedModelEdge" role="target" pv2="KefedModelElementOut" c2="KefedModelElement"/>
 				<pvLink c1="KefedModelEdge" role="source" pv2="KefedModelElementIn" c2="KefedModelElement"/>			
+				<pvLink c1="KefedModelEdge" role="model" pv2="KefedModel" c2="KefedModel"/>
 			</pvLinks>
 		</primitive>
 		<primitive name="KefedModelElementOut">
@@ -19,6 +20,11 @@
 			<classes>
 				<class name="KefedModelElement"/>
 			</classes>
+		</primitive>
+		<primitive name="KefedModel" nullable="true">
+			<classes>
+				<class name="KefedModel"/>
+			</classes>			
 		</primitive>
 	</primitives>
 	<vpdmfLabel format="$1$ - $2$[$3$] - $4$" />

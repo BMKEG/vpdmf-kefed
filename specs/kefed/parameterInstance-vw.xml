@@ -8,17 +8,28 @@
 				<class name="ParameterInstance"/>
 			</classes>
 			<pvLinks>
+				<pvLink c1="KefedModelElement" role="model" pv2="KefedModel" c2="KefedModel"/>
 				<pvLink c1="KefedModelElement" role="defn" pv2="ExperimentalVariable" c2="OoevvElement"/>
 			</pvLinks>
 			<conditions>
 				<condition c="KefedModelElement" a="elementType" v="ParameterInstance"/>
 			</conditions>
 		</primitive>
-		<primitive name="ExperimentalVariable" lookupView="ExperimentalVariableLU"/>
+		<primitive name="ExperimentalVariable" lookupView="ExperimentalVariableLU" editable="false"/>
+		<primitive name="KefedModel" nullable="true">
+			<classes>
+				<class name="KefedModel"/>
+			</classes>			
+		</primitive>
 	</primitives>
 	<vpdmfLabel format="$1$" />
 	<indexElements>
 		<indexElement pos="1" p="KefedModelElement" c="KefedModelElement" a="uuid" />
+		<indexElement pos="2" p="KefedModelElement" c="KefedModelElement" a="elementType" />
+		<indexElement pos="3" p="KefedModelElement" c="KefedModelElement" a="x" />
+		<indexElement pos="4" p="KefedModelElement" c="KefedModelElement" a="y" />
+		<indexElement pos="5" p="KefedModelElement" c="KefedModelElement" a="w" />
+		<indexElement pos="6" p="KefedModelElement" c="KefedModelElement" a="h" />
+		<indexElement pos="7" p="ExperimentalVariable" c="Term" a="termValue" />
 	</indexElements>
-
 </view>

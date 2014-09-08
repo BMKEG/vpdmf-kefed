@@ -7,9 +7,17 @@
 				<class name="ProcessControlPoint"/>
 				<class name="ProcessStartPoint"/>
 			</classes>
+			<pvLinks>
+				<pvLink c1="KefedModelElement" role="model" pv2="KefedModel" c2="KefedModel"/>
+			</pvLinks>
 			<conditions>
 				<condition c="KefedModelElement" a="elementType" v="ProcessStartPoint"/>
 			</conditions>
+		</primitive>
+		<primitive name="KefedModel" nullable="true">
+			<classes>
+				<class name="KefedModel"/>
+			</classes>			
 		</primitive>
 	</primitives>
 	<vpdmfLabel format="$1$" />

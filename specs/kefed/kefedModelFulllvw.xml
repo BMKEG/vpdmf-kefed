@@ -15,16 +15,6 @@
 				<pvLink c1="KefedModel" role="elements" pv2="ConstantInstance" c2="KefedModelElement"/>
 				<pvLink c1="KefedModel" role="elements" pv2="MeasurementInstance" c2="KefedModelElement"/>
 				<pvLink c1="KefedModel" role="curators" pv2="Curator" c2="KefedCurator"/>
-				<pvLink c1="KefedModel" role="ooevv" pv2="OoevvElementSet" c2="OoevvElementSet"/>
-			</pvLinks>
-		</primitive>
-		<primitive name="OoevvElementSet">
-			<classes>
-				<class name="Ontology"/>
-				<class name="OoevvElementSet"/>
-			</classes>
-			<pvLinks>
-				<pvLink c1="OoevvElementSet" role="term" pv2="OoevvTerm" c2="Term"/>
 			</pvLinks>
 		</primitive>
 		<primitive name="Curator" nullable="true">

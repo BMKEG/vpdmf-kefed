@@ -10,7 +10,15 @@
 			<conditions>
 				<condition c="KefedModelElement" a="elementType" v="BranchPoint"/>
 			</conditions>
+			<pvLinks>
+				<pvLink c1="KefedModelElement" role="model" pv2="KefedModel" c2="KefedModel"/>
+			</pvLinks>			
 		</primitive>
+		<primitive name="KefedModel" nullable="true">
+			<classes>
+				<class name="KefedModel"/>
+			</classes>
+		</primitive>		
 	</primitives>
 	<vpdmfLabel format="$1$" />
 	<indexElements>
