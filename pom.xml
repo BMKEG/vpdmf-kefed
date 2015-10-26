@@ -16,6 +16,7 @@
  	<properties>
 		<vpdmf.model.type>MagicDraw</vpdmf.model.type>
 		<vpdmf.model.path>vpdmf-kefed.xml</vpdmf.model.path>
+		<vpdmf.model.url>http://bmkeg.isi.edu/kefed</vpdmf.model.url>
 		<vpdmf.viewsPath>specs</vpdmf.viewsPath>
 		<vpdmf.nestedModels>${basedir}/../vpdmf-people/ ${basedir}/../vpdmf-terminology/ ${basedir}/../vpdmf-ooevv/</vpdmf.nestedModels>  	
  	</properties>

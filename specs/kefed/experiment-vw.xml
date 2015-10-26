@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<view name="KefedModel" type="Data">
+<view name="Experiment" type="Data">
 	<primitives>
+		<primitive name="Experiment">
+			<classes>
+				<class name="Experiment"/>
+			</classes>
+			<pvLinks>
+				<pvLink c1="Experiment" role="kefedModel" pv2="KefedModel" c2="KefedModel"/>
+			</pvLinks>
+		</primitive>
 		<primitive name="KefedModel">
 			<classes>
 				<class name="KefedModel"/>
